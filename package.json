@@ -1,0 +1,16 @@
+{
+  "name": "work-sec-sys",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:api": "npm --workspace apps/api run dev",
+    "dev:dashboard": "npm --workspace apps/dashboard run dev",
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "test:policy": "node --test apps/api/test/*.test.js"
+  },
+  "workspaces": [
+    "apps/api",
+    "apps/dashboard",
+    "apps/mobile"
+  ]
+}

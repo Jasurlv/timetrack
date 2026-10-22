@@ -1,0 +1,8 @@
+node_modules/
+.next/
+dist/
+coverage/
+.expo/
+apps/api/.env
+apps/dashboard/.env.local
+apps/mobile/.env

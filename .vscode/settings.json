@@ -1,0 +1,12 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^npm run test:policy; node --check apps/api/src/server\\.js$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^node --check apps/dashboard/next\\.config\\.mjs; node --check apps/dashboard/tailwind\\.config\\.mjs; npm run test:policy$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
